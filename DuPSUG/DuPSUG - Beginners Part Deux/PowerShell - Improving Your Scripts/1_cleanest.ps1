@@ -22,7 +22,7 @@ function Get-LockedFiles {
     PS C:\> Get-LockedFiles -BasePath D:\inetpub -Age 10 -Save
     Checks for lock files in D:\inetpub which are 10 days or older and saves the output to default .csv location
 .NOTES
-    Created by: Robert Prüst
+    Created by: Robert Prust
     http://powershellpr0mpt.com
 #>
     [CmdletBinding()]
