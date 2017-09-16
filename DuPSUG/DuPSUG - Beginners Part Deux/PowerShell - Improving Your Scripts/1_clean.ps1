@@ -1,12 +1,12 @@
 [CmdletBinding()]
 param(
-    [Parameter(Mandatory=$true)]
+    [Parameter(Mandatory = $true)]
     $BasePath,
-    [Parameter(Mandatory=$true)]
+    [Parameter(Mandatory = $true)]
     $Output
 )
 
-$date = (get-date).AddDays(-1)
-set-location $BasePath
-$directory = (get-childitem -force -recurse | ? { $_.PSIsContainer } | select-object FullName)
-$directory | foreach-object {get-childitem ($_.FullName) -force | where {($_.Name -like '~*.*') -and ($_.LastAccessTime -le $date)} | select-object FullName, LastAccessTime, LastWriteTime} | export-csv $output
+$Date = (Get-Date).AddDays(-1)
+Set-Location $BasePath
+$Directory = (Get-Childitem -Force -Recurse | Where-Object { $_.PSIsContainer } | Select-Object FullName)
+$Directory | Foreach-Object {Get-Childitem ($_.FullName) -Force | Where-Object {($_.Name -like '~*.*') -and ($_.LastAccessTime -le $date)} | Select-Object FullName, LastAccessTime, LastWriteTime} | Export-Csv $output
