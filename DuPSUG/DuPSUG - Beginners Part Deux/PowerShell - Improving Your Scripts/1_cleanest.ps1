@@ -6,7 +6,8 @@ function Get-LockedFiles {
 .SYNOPSIS
     Find locked files of a certain age
 .DESCRIPTION
-    Long description
+    This script finds 'lock' files starting with '~' of a certain age in a certain folder.
+    Results are displayed on screen and can be saved to a .csv file if wanted.
 .PARAMETER BasePath
     Declare which location you want to search for locked files.
     Mandatory parameter.
