@@ -25,7 +25,15 @@ Measure-Command {
     Get-LockedFiles -BasePath C:\Temp -OutputFolder C:\Temp -Save
 } | Select-Object TotalSeconds
 
-#Just for good measure
+#Just for good 'measure'
 Measure-Command {
     Get-LockedFiles -BasePath C:\Temp -OutputFolder C:\Temp -Save
 } | Select-Object TotalSeconds
+
+# Help me!
+Get-ChildItem -Path . -Filter '1_*.ps1' -File | Where-Object {$_.Name -notlike '*measure*'} |
+    ForEach-Object {
+    Get-Help $_.FullName
+}
+
+Get-Help Get-LockedFiles -Full
