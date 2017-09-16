@@ -24,3 +24,8 @@ Measure-Command {
     . .\1_cleanest.ps1
     Get-LockedFiles -BasePath C:\Temp -OutputFolder C:\Temp -Save
 } | Select-Object TotalSeconds
+
+#Just for good measure
+Measure-Command {
+    Get-LockedFiles -BasePath C:\Temp -OutputFolder C:\Temp -Save
+} | Select-Object TotalSeconds
