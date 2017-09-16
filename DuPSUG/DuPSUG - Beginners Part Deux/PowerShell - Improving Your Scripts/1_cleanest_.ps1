@@ -5,7 +5,8 @@ function Get-LockedFiles {
 .DESCRIPTION
     Long description
 .PARAMETER BasePath
-
+    Declare which location you want to search for locked files.
+    Mandatory parameter.
 .PARAMETER Age
     Declare the age of the files to search for.
     Default value of 1
