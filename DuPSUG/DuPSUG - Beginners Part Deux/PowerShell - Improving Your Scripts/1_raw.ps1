@@ -1,4 +1,5 @@
 #Original filename: GetLockFilesRecursive.ps1
+
 $BasePath = read-host 'Please provide base path to start search...'
 $Output = read-host 'Please provide full path for output csv file...'
 $date = (get-date).AddDays(-1)
