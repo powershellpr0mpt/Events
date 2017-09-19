@@ -11,7 +11,7 @@ param(
     [Parameter( Position = 1)]
     [int]$Age = 0,
     [Parameter( Position = 2)]
-    [Alias('Please provide full path for output csv file')]
+    [HelpMessage('Please provide full path for output csv file')]
     [string]$OutputFolder = $PSScriptRoot,
     [Switch]$Save
 )
