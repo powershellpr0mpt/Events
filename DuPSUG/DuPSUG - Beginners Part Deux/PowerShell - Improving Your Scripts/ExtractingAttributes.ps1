@@ -1,15 +1,15 @@
 $ObjectNumber = 10000
 Measure-Command {
+    $Process = Get-Process
     for ($i = 1; $i -lt $ObjectNumber; $i++) {
-        $Process = Get-Process
-        $Process.Count
+        Write-Output "This is mailbox $i of $($Process.count)"
     }
-} | Select TotalSeconds
+} | Select-Object TotalSeconds
 
 Measure-Command {
+    $Process = Get-Process
+    $Count = $Process.Count
     for ($i = 1; $i -lt $ObjectNumber ; $i++) {
-        $Process = Get-Process
-        $Count = $Process.Count
-        $Count
+        Write-Output "This is mailbox $i of $Count"
     }
-} | Select TotalSeconds
+} | Select-Object TotalSeconds

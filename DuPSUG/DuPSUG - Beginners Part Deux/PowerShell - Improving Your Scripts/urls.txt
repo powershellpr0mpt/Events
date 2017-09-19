@@ -1,3 +1,0 @@
-https://blogs.technet.microsoft.com/heyscriptingguy/2014/05/17/weekend-scripter-best-practices-for-powershell-scripting-in-shared-environment/
-https://blogs.technet.microsoft.com/heyscriptingguy/2014/05/18/weekend-scripter-powershell-speed-improvement-techniques/
-https://blogs.technet.microsoft.com/heyscriptingguy/2012/06/18/the-top-ten-powershell-best-practices-for-it-pros/
