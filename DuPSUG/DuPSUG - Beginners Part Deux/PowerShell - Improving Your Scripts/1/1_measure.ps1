@@ -1,6 +1,12 @@
 # To be used later
-$Path = 'Git:\Events\DuPSUG\DuPSUG - Beginners Part Deux\PowerShell - Improving Your Scripts'
+if (!(Test-Path -Path DuPSUG:)) {
+    New-PSDrive -Name DuPSUG -PSProvider FileSystem -Root 'Git:\GitHub\Events\Events\DuPSUG\DuPSUG - Beginners Part Deux\PowerShell - Improving Your Scripts\1' | Out-Null
+}
+$Path = 'DuPSUG:'
 Set-Location $Path
+Clear-Host
+
+# Original script
 
 Measure-Command {
     .\1_raw.ps1
@@ -30,7 +36,9 @@ Measure-Command {
     Get-LockedFiles -BasePath C:\Temp -OutputFolder C:\Temp -Save
 } | Select-Object TotalSeconds
 
+
 # Help me!
+Clear-Host
 Get-ChildItem -Path . -Filter '1_*.ps1' -File | Where-Object {$_.Name -notlike '*measure*'} |
     ForEach-Object {
     Get-Help $_.FullName
