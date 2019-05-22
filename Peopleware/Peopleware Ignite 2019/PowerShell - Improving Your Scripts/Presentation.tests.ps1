@@ -3,7 +3,7 @@ $PresentationFile = Get-ChildItem -Path $PresentationFolder -Filter *.pptx -File
 
 $Folders = @('C:\Temp\Locks\folder1','C:\Temp\Locks\folder2','C:\Temp')
 $Browsers = @('Brave','Chrome','MSEdge')
-$Processes = @('Outlook','Teams','Slack','Spotify')
+$Processes = @('Outlook','Teams','Slack','Spotify','1Password')
 $ZoomItPath = "$Home\OneDrive - PeopleWare ICT Solutions B.V\Documents\ZoomIt\ZoomIt.exe"
 
 
@@ -15,7 +15,7 @@ $PPTTitle = "{0} - PowerPoint" -f $PresentationFile.Name
 #Set location
 Set-Location $PresentationFolder
 #1 Powerpoint
-Get-Process POWERPNT | Stop-Process
+Get-Process POWERPNT -ErrorAction SilentlyContinue| Stop-Process
 #Open Presentation
 Invoke-Item $PresentationFile
 #Create missing folders
@@ -26,11 +26,11 @@ foreach ($Folder in $Folders){
 }
 #Close disturbing processes
 foreach ($Process in $Processes){
-    Get-Process $Process | Stop-Process
+    Get-Process $Process -ErrorAction SilentlyContinue | Stop-Process
 }
 #Close browsers
 foreach ($Browser in $Browsers){
-    Get-Process $Browser | Stop-Process
+    Get-Process $Browser -ErrorAction SilentlyContinue| Stop-Process
 }
 #Open ZoomIT
 Invoke-Item $ZoomItPath
