@@ -2,7 +2,7 @@
 # Clean up code by removing aliasses and name consistency [use tab completion!]
 # Recommend rename file to something more 'PowerShell-y' like Get-LockedFiles.ps1
 param(
-    $BasePath,
+    $BasePath= 'c:\temp\locks' ,
     $Output
 )
 
