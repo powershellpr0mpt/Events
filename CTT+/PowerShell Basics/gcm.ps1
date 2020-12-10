@@ -8,5 +8,5 @@ Get-Command
 
 # How can I find what I'm looking for?
 Get-Command -Verb Get
-Get-Command -Noun Process
+Get-Command -Noun Proces*
 Get-Command -Name *e*-*Process*
