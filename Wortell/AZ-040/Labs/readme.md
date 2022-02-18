@@ -57,8 +57,8 @@ Zoals aangegeven kan je PowerShell op verschillende manieren gebruiken:
 [PSMoLLinux]:https://www.manning.com/books/learn-powershell-in-a-month-of-lunches-linux-and-macos-edition
 [tools]:https://leanpub.com/powershell-scripting-toolmaking
 [GettingStarted]:https://www.microsoftvirtualacademy.com/en-us/training-courses/getting-started-with-powershell-3-0-jump-start-8276
-[New2PS]:https://powershellpr0mpt.com/new-to-powershell/
-[blog]:https://powershellpr0mpt.com
+[New2PS]:https://www.powershellpr0mpt.com/new-to-powershell/
+[blog]:https://www.powershellpr0mpt.com
 [PS]:https://github.com/powershell/powershell#get-powershell
 [code]:https://code.visualstudio.com/
 [git]:https://git-scm.com/downloads
