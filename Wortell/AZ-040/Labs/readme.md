@@ -7,7 +7,8 @@ Deze pagina heeft alle informatie m.b.t. AZ-040 training.
 Op deze pagina kan je alle gebruikte scripts terugvinden, zodat je er zelf naar kan kijken en/of mee spelen waar gewenst.  
 Zoals aangegeven is ook het script over de variabelen gewoon aanwezig, hier kwamen we in verband met tijdsgebrek helaas niet aan toe.
 
-* [De 3 belangrijkste cmdlets][3cmdlets]
+* [Module 1 code][3cmdlets]
+* [Module 1 oefeningen][Mod1exercise]
 
 
 ## Extra resources
@@ -49,6 +50,7 @@ Zoals aangegeven kan je PowerShell op verschillende manieren gebruiken:
   Een online variant van PowerShell (de Open Source variant) beschikbaar als je Azure hebt om al je resources online te benaderen.
 
 [3cmdlets]:Module1-code.ps1
+[Mod1Exercise]:Module1-questions.md
 [PS4n00bs]:https://leanpub.com/powershell-4n00bs
 [PSMoL]:https://www.manning.com/books/learn-windows-powershell-in-a-month-of-lunches-third-edition
 [PSTMoL]:https://www.manning.com/books/learn-powershell-scripting-in-a-month-of-lunches
