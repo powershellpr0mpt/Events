@@ -8,6 +8,6 @@ Het is het beste als je ook je denk proces kan laten zien hoe je tot deze code b
 3. Hoeveel parameter sets en hoeveel parameters heefts `Get-Event`?
 4. Welke `werkwoorden` zijn toegestaan om gebruikt te worden voor Cmdlets?
 5. Welke `Property` eigenschappen heeft `Get-Location`?
-6. 6. Geef de namen van de eerste 10 `processen` weer op jou systeem
-7. 7. Als ik wil testen of een `pad` bestaat, welk cmdlet heb ik dan nodig?
+6. Geef de namen van de eerste 10 `processen` weer op jou systeem
+7. Als ik wil testen of een `pad` bestaat, welk cmdlet heb ik dan nodig?
 8. Wat voor type object geeft het cmdlet `Get-ChildItem`?
