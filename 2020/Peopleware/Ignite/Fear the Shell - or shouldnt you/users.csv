@@ -1,0 +1,22 @@
+FirstName,LastName,Path,Password,Department
+Ahmed ,Taher,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Networking
+Amresh,Badrie,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Networking
+Anil,Akloe,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Networking
+Antonio,Lorenzo Vicente,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Networking
+Asrat ,Limenh,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Networking
+Bob,Mol,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Operations
+Cheunman,Cheung,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Operations
+Daniel,Roukema,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Operations
+Eline,Bergema,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Operations
+Jan,Brink,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Operations
+Jan,van der Plas,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Telephony
+Laurens,Ouwekerk,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Telephony
+Maikel,van der Roest,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Telephony
+Martijn,Santen,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Telephony
+Menno,Bakker,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Telephony
+Mohamed,Aouragh,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Telephony
+Richard,Prenger,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,Telephony
+Ronald,de Haan,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,DevOps
+Thom,van Mechelen,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,DevOps
+Toine,Vaes,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,DevOps
+Tom,Jacobs,"OU=OSC,OU=Students,DC=ACME,DC=ORG",Welkom2018!,DevOps
